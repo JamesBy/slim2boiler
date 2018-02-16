@@ -1,0 +1,17 @@
+{% include "Layout/header.twig" %}
+
+<body>
+
+	{% include "Layout/nav.twig" %}
+	{% include "Layout/leftmenu.twig" %}
+
+	<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+
+	{{ block("body") }}
+
+	</main>
+
+	{% include "Layout/footer.twig" %}
+
+</body>
+</html>
